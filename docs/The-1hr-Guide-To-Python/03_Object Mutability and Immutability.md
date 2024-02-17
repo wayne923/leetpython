@@ -24,3 +24,5 @@ We can modify the first item in the list, while attempting the same modification
 
 Understanding the difference between the two types helps inform when you want to use them- you may want to use a list when you plan on changing its contents frequently, whereas you may use a tuple when you don't ever want its contents to change.
 
+Let's now move onto our next foundational concept- Sequence Indexing and Slicing!
+

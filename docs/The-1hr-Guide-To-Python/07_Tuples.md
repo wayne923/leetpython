@@ -12,7 +12,12 @@ But you’ll always see tuples defined using parentheses (), and Python will alw
 numbers=(1,2,3,4,5)
 ```
 
-Tuples support all the standard immutable sequence operations, along with the standard built-in function and its own built-in methods. All the possible operations supported by tuple objects can be shown in the table below. Feel free to use this as a resource whenever you need to remember what you can do with a tuple!
+Tuples are primarily used to maintain an ordered collection of objects that are not intended to be changed once created. This is why they are-
+* ordered- we want to make sure our tuple data is dependable.
+* can contain duplicates- we may need duplicate data in our fixed set of data.
+* immutable- we want to make sure our data doesn't change once created.
+
+Tuples support all the standard immutable sequence operations, along with the standard built-in function and its own built-in methods. Most of the possible operations supported by tuple objects can be shown in the table below. Feel free to use this as a resource whenever you need to remember what you can do with a tuple!
 
 | Operation | Explanation | Example |
 |-----------|-------------|---------|

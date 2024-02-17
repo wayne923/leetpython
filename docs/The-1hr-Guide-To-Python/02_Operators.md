@@ -69,4 +69,4 @@ Membership operators perform membership operations on values and return a boolea
 | `A not in B` | Returns True if A is not inside sequence type object B. Otherwise, it returns False. | `x = 5`<br />`list1 = [1, 2, 3]`<br />`print(5 not in list1)`<br /># Outputs True |
 
 "Whew, that's a lot of operators! This may seem overwhelming right now, but don't worry! As you start working through examples and applying these operators in different scenarios, their uses and nuances will become much clearer. Think of each operator as a tool in your programming toolkit, each with its own purpose and best use case.
-So, take a deep breath, and let’s continue our journey! Next up is sequence indexes and slicing!
+So, take a deep breath, and let’s continue our journey! Next up is Object Mutability and Immutability!

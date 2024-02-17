@@ -20,21 +20,21 @@ This may be quite difficult to visualize at first, so let’s use these handy vi
 
 ## Sequences and Their Positive Index Positions
 
-| Object Type | Content     | seq obj[0] | [1] | [2] | [3] | [4] |
-|-------------|-------------|------------|-----|-----|-----|-----|
-| String      | "Hello"     | H          | e   | l   | l   | o   |
-| List        | [0,1,2,3,4] | 0          | 1   | 2   | 3   | 4   |
-| Tuple       | (0,1,2,3,4) | 0          | 1   | 2   | 3   | 4   |
-| Range       | range(0,5)  | 0          | 1   | 2   | 3   | 4   |
+| Object Type | Content       | seq obj[0] | [1] | [2] | [3] | [4] | [5] |
+|-------------|---------------|------------|-----|-----|-----|-----|-----|
+| String      | "Python"      | P          | y   | t   | h   | o   | n   |
+| List        | [0,1,2,3,4,5] | 0          | 1   | 2   | 3   | 4   | 5   |
+| Tuple       | (0,1,2,3,4,5) | 0          | 1   | 2   | 3   | 4   | 5   |
+| Range       |  range(0,6)   | 0          | 1   | 2   | 3   | 4   | 5   |
 
 ## Sequences and Their Negative Index Positions
 
-| Object Type | Content     | seq obj[-5] | [-4] | [-3] | [-2] | [-1] |
-|-------------|-------------|-------------|------|------|------|------|
-| String      | "Hello"     | H           | e    | l    | l    | o    |
-| List        | [0,1,2,3,4] | 0           | 1    | 2    | 3    | 4    |
-| Tuple       | (0,1,2,3,4) | 0           | 1    | 2    | 3    | 4    |
-| Range       | range(0,5)  | 0           | 1    | 2    | 3    | 4    |
+| Object Type | Content       | seq obj[-6] | [-5] | [-4] | [-3] | [-2] | [-1] |
+|-------------|---------------|-------------|------|------|------|------|------|
+| String      | "Python"      | P           | y    | t    | h    | o    | n    |
+| List        | [0,1,2,3,4,5] | 0           | 1    | 2    | 3    | 4    | 5    |
+| Tuple       | (0,1,2,3,4,5) | 0           | 1    | 2    | 3    | 4    | 5    |
+| Range       | (0,6)         | 0           | 1    | 2    | 3    | 4    | 5    |
 
 We can select a portion of a sequence object by using the slice notation, which uses the following syntax-
 
@@ -45,7 +45,9 @@ Sequence Object[start:stop:step]
 ## Sequence Slicing
 
 The start parameter is at the index value to begin slicing from.
+
 The stop parameter is the index value to stop slicing at.
+
 The step parameter tells Python to return every ‘step’, so a value of 2 would mean “return every 2nd item”
 
 Slicing parameters can get quite confusing, so here is a quick cheat sheet-
@@ -60,14 +62,28 @@ As with indexing, these can be quite difficult to visualize, so here's some more
 
 ## Positive Slicing
 
-| Object Type | Content | seq obj[0]    | [1]  | [2] | [3] | [4] |
-|-------------|---------|---------------|------|------|------|------|
-| String      | "Hello" | `string[1:]`  | `e`, `l`, `l`, `o` |
-| String      | "Hello" | `string[:4]`  | `H`, `e`, `l`, `l` |
-| String      | "Hello" | `string[::2]` | `H`, `l`, `o`      |
-| List        | [01234] | `list[1:]`    | `1`, `2`, `3`, `4` |
-| List        | [01234] | `list[:4]`    | `0`, `1`, `2`, `3` |
-| List        | [01234] | `list[::2]`   | `0`, `2`, `4`      |
-| Tuple       | (01234) | `tuple[1:]`   | `1`, `2`, `3`, `4` |
-| Tuple       | (01234) | `tuple[:4]`   | `0`, `1`, `2`, `3` |
-| Tuple       | (01234) | `tuple[::2]`  | `0`, `2`, `4`      |
+| Object Type | Content    | Slicing     | Result   | seq obj[0] | [1] | [2] | [3] | [4] | [5] |
+|-------------|------------|-------------|----------|------------|-----|-----|-----|-----|-----|
+| String      | "Python"   | string[1:]  | ython         |       | y   | t   | h   | o   | n   |
+| String      | "Python"   | string[:-1] | Pytho         | P     | y   | t   | h   | o   |     |
+| String      | "Python"   | string[:-2] | Pto           | P     |     | t   |     | o   |     |
+| List        | [0,1,2,3,4,5] | list[1:] | [1,2,3,4,5]   |       | 1   | 2   | 3   | 4   | 5   |
+| List        | [0,1,2,3,4,5] | list[:-1] | [0,1,2,3,4]  | 0     | 1   | 2   | 3   | 4   |     |
+| List        | [0,1,2,3,4,5] | list[:-2] | [0,2,4]      | 0     |     | 2   |     | 4   |     |
+| Tuple       | (0,1,2,3,4,5) | tuple[1:] | (1,2,3,4,5)  |       | 1   | 2   | 3   | 4   | 5   |
+| Tuple       | (0,1,2,3,4,5) | tuple[:-1] | (0,1,2,3,4) | 0     | 1   | 2   | 3   | 4   |     |
+| Tuple       | (0,1,2,3,4,5) | tuple[:-2] | (0,2,4)     | 0     |     | 2   |     | 4   |     |
+
+## Negative Slicing
+
+| Object Type | Content       | Slicing      | Result     | seq obj[-6] | [-5] | [-4] | [-3] | [-2] | [-1] |
+|-------------|---------------|--------------|------------|-------------|------|------|------|------|------|
+| String      | "Python"      | string[-5:]  | ython      |             | y    | t    | h    | o    | n    |
+| String      | "Python"      | string[:-1]  | Pytho      | P           | y    | t    | h    | o    |      |
+| String      | "Python"      | string[::-2]  | nhy       |             | y    |      | h    |      | n    |
+| List        | [0,1,2,3,4,5] | list[-5:]    | [1,2,3,4,5]|             | 1    | 2    | 3    | 4    | 5    |
+| List        | [0,1,2,3,4,5] | list[:-1]    | [0,1,2,3,4]| 0           | 1    | 2    | 3    | 4    |      |
+| List        | [0,1,2,3,4,5] | list[::-2]    | [5,3,1]   |             | 1    |      | 3    |      | 5    |
+| Tuple       | (0,1,2,3,4,5) | tuple[-5:]   | (1,2,3,4,5)|             | 1    | 2    | 3    | 4    | 5    |
+| Tuple       | (0,1,2,3,4,5) | tuple[:-1]   | (0,1,2,3,4)| 0           | 1    | 2    | 3    | 4    |      |
+| Tuple       | (0,1,2,3,4,5) | tuple[::-2]   | (5,3,1)   |             | 1    |      | 3    |      | 5    |

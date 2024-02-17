@@ -53,7 +53,7 @@ for number in range1:
     print(number, end=' ')  # Outputs: 0 1 2 3 4 5 6 7 8 9
 ```
 
-Range supports the standard sequence operations, along with several built-in functions and its own built-in methods. All the possible operations supported by range objects can be seen in the table below. Feel free to use this as a resource whenever you need to remember what you can do with a range!
+Range supports the standard sequence operations, along with several built-in functions and its own built-in methods. Most of the possible operations supported by range objects can be seen in the table below. Feel free to use this as a resource whenever you need to remember what you can do with a range!
 
 | Operation | Explanation | Example |
 |-----------|-------------|---------|

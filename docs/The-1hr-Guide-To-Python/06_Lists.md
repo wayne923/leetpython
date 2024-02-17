@@ -8,10 +8,14 @@ Here's an example-
 numbers=[1,2,3,4,5]
 ```
 
-## Operations
+Lists are primarily used to maintain an ordered collection of objects that may need to be changed or updated at any time. That's why they're
+* ordered- we want to make sure our list is dependable.
+* can contain duplicate items- we may need to add in the same objects to a list, just in different orders.
+* mutable- we want to be able to change our list at any time.
 
-Lists support all the standard mutable sequence operations, along with the standard built-in functions and its own built-in methods. All the possible operations supported by list objects can be shown in the table below. Feel free to use this as a resource whenever you need to remember what you can do with a list!
 
+
+Lists support all the standard mutable sequence operations, along with the standard built-in functions and its own built-in methods. Most of the possible operations supported by list objects can be shown in the table below. Feel free to use this as a resource whenever you need to remember what you can do with a list!
 
 | Operation | Explanation | Example |
 |-----------|-------------|---------|
