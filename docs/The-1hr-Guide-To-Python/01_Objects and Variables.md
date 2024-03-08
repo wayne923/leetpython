@@ -104,6 +104,6 @@ print("a:", a)  # outputs a: 10
 print("b:", b)  # outputs b: 5
 ```
 
-##Conclusion
+## Conclusion
 
 Understanding objects and variables and the relationship between them is essential in learning Python. As we move forward, we'll explore how to manipulate them to develop complex and efficient Python programs.
