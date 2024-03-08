@@ -165,14 +165,13 @@ print(sum_numbers(10, 20))   # Outputs: 30
 
 ```python
 def print_details(**key-pairs):
-    # Directly unpacking kwargs into the format() function
-    message = "Name: {name}, Age: {age}".format(**kwargs)
+    message = "Name: {name}, Age: {age}".format(**kwargs) # The format() function used in conjunction with **kwargs allows us to unpack the key-value pairs directly into the string.
     print(message)
 
 # Using the function
-print_details(name="Alice", age=30) #Outputs Name: Alice, Age: 30
+print_details(name="Alice", age=30) # Outputs Name: Alice, Age: 30
 ```
 
-And that wraps up our section on parameters! Don’t worry if you don’t have all of these memorized, it’s definitely the longest section we’ve had thus far and contains an awful lot of information. As with the rest, think of this as a resource that you can always turn to if you don’t remember something. What’s important is that you keep on with the rest of the guide!
+##Conclusion
 
-Let's now move onto another way we can create functions called lambda expression.
+And that wraps up our section on parameters! Don’t worry if you don’t have all of these memorized, it’s definitely the longest section we’ve had thus far and contains an awful lot of information. As with the rest, think of this as a resource that you can always turn to if you don’t remember something. What’s important is that you keep on with the rest of the guide!

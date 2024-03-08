@@ -90,8 +90,8 @@ for _ in range(5):
     print(next(count)) #Outputs 1,2,3,4,5
 ```
 
+## Conclusion
+
 Generators are well suited for these examples because we want a way to generate the values on demand rather than having them generated and stored upfront. This "on-demand" generation is especially useful in cases where the total number of items isn't known ahead of time, or it's impractical to hold all items in memory due to size. In the case of the Fibonacci sequence, for instance, we can theoretically generate an infinite number of values, something that would be impossible with a regular list without consuming all available memory. Similarly, the counter can go on indefinitely, providing unique identifiers or sequence numbers for as long as needed.
 
-In summary, generators offer a powerful, efficient, and elegant way to generate large sequences of data, especially when you need to handle potentially infinite series, perform computations on the fly, or manage large data sets with minimal memory usage. Whether you're iterating through numbers, processing streaming data, or generating values according to a specific algorithm, generators can be an invaluable tool in your Python programming toolkit.
-
-Let's now move onto the final essential toolkit- Comprehensions!
+Generators offer a powerful, efficient, and elegant way to generate large sequences of data, especially when you need to handle potentially infinite series, perform computations on the fly, or manage large data sets with minimal memory usage. Whether you're iterating through numbers, processing streaming data, or generating values according to a specific algorithm, generators can be an invaluable tool in your Python programming toolkit.

@@ -82,10 +82,10 @@ sorted_people = sorted(people, key=lambda person: person[1])
 print(sorted_people)
 ```
 
+## Conclusion
+
 These examples show what lambda expressions excel at- they're incredibly useful for quick data transformations, filtering operations, or applying a simple function over a sequence.
 
 However, it's important to remember that while lambda expressions are powerful and convenient for simple operations, they are not suited for complex functions that would benefit from the clarity provided by a named function definition. The power of lambda expressions lie in its simplicity.
 
 In summary, lambda expressions are a valuable tool in the Python programmer's toolkit, enabling efficient, readable, and elegant coding for a wide range of simple, single-use function scenarios. 
-
-Let's now move onto another great tool- generators!
