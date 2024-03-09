@@ -1,12 +1,12 @@
 # Tuples
 
-A tuple is an immutable object that contains an ordered sequence of objects (essentially making it an immutable list) and is formally defined by the use of commas. This means that this is perfectly fine Python code-
+A tuple is an immutable object that contains an ordered sequence of objects (essentially making it an immutable list) and is formally defined by the use of commas. This means that this is perfectly a fine Python tuple-
 
 ```Python
 numbers=1,2,3,4,5
 ```
 
-But you’ll always see tuples defined using parentheses (), and Python will always output tuples with (). This is to help clearly identify tuples, especially when the code becomes complex. Thus the above code can be considered identical to-
+But you’ll almost always see tuples defined using parentheses `()`, and Python will always output tuples with `()`. This is to help clearly identify tuples, especially when the code becomes complex. Thus the above code can be considered identical to-
 
 ```Python
 numbers=(1,2,3,4,5)

@@ -1,6 +1,6 @@
 # List
 
-A list is a mutable object that contains an ordered sequence of objects and is defined by square brackets.
+A list is a mutable object that contains an ordered sequence of objects and is defined by square brackets `[]`.
 
 Here's an example-
 
