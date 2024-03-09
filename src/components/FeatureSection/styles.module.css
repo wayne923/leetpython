@@ -1,0 +1,11 @@
+/* In src/pages/featuresSection.module.css */
+
+.featuresSection {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px; /* This sets the gap between the feature blocks */
+    padding: 40px 0; /* Adjust the padding as needed */
+    background-color: #ecf0f1; /* Light grey background for the whole section */
+  }
+  

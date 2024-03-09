@@ -1,0 +1,22 @@
+/* Example styles.module.css content, adjust based on the component */
+
+.communityHighlight, .projectsShowcase, .founderSection {
+    padding: 40px 0;
+    background-color: #f0f0f0;
+    text-align: center;
+  }
+  
+  /* Additional class styles as needed */
+  .button {
+    margin-top: 20px;
+    background-color: #f96732;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #e05628;
+  }
