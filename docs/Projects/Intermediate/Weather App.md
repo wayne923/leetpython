@@ -1,6 +1,6 @@
 ---
 title: Weather App
-tags: [Beginner, Projects]
+tags: [Intermediate, Projects]
 ---
 
 Welcome to the **Weather App** project!
@@ -207,7 +207,4 @@ def main():
         display_weather_info(weather_info)  # Display the parsed weather information
     else:
         print("Error: Unable to fetch weather data. Please check the city name and try again.")
-
-if __name__ == "__main__":
-    main()
 ```
