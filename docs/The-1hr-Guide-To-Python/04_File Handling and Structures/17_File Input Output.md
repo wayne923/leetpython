@@ -2,7 +2,7 @@
 
 What's the use of knowing how to write Python code if it doesn't persist beyond the lifetime of the script's operation? After all, the true power of programming doesn't lie in writing fancy loops or creating functions- it's about using those tools to interact with external data and create programs that have a tangible impact. To do this we need a way for Python to interact with other files or create them. This is what file Input/Output (I/O) is.
 
-File I/O allow your Python script to open, read, write, and close files in your computer's file system, allowing your programs to create persistent data, interact with datasets, configure systems, log information, and even communicate with other programs.
+File I/O allows your Python script to open, read, write, and close files in your computer's file system, allowing your programs to create persistent data, interact with datasets, configure systems, log information, and even communicate with other programs.
 
 ## Opening Files
 The most important part of file I/O is knowing how to open a file. We can do so with the open() function, which allows you to open a file and returns a file object. Here's how you can use it:
@@ -45,7 +45,7 @@ with open('my_file.txt', mode='r') as file:
     print(file_contents)
 ```
 
-Changing the modes controls how the file is opened what operations we can perform on it. Here's a table that shows the most commonly used file modes and what they allow you to do:
+Changing the modes controls how the file is opened and what operations we can perform on it. Here's a table that shows the most commonly used file modes and what they allow you to do:
 
 When you specify the mode= parameter in the open() function, you can control how the file is opened and what operations you can perform on it.
 
@@ -84,7 +84,7 @@ Here's an overview of the most commonly used file modes and what they allow you 
 
 In order for your Python script to open files it'll need to be able to find them. By default Python will search its local directory (where the python script currently lives in) for any files you're opening. 
 
-Alternatively, can then define an abolute or relative file path for the script to search in.
+Alternatively, can then define an absolute or relative file path for the script to search in.
 
 ### Absolute Path
 
@@ -111,13 +111,13 @@ with open(file_path, mode='w') as file:
 
 Unfortunately, the task of creating Python programs that work across various Operating Systems (OS) and softwares can be quite complicated due to 
 
-Unfortunately, the task of creating Python programs that are compatible with different operating systems (OS) and softwares can be quite complicated due to certain core differences. One such difference is in how they handle file paths. Window paths uses backslashes `\`, while Unix-based systems like Linux and macOS uses forward slashes `/`. Then there's the number of slashes to use, differences in handling root directories, case sensitivity, and more. 
+Unfortunately, the task of creating Python programs that are compatible with different operating systems (OS) and softwares can be quite complicated due to certain core differences. One such difference is in how they handle file paths. Window paths use backslashes `\`, while Unix-based systems like Linux and macOS use forward slashes `/`. Then there's the number of slashes to use, differences in handling root directories, case sensitivity, and more. 
 
 Fortunately, Python provides built-in tools and techniques that help abstract away many of these OS-specific complexities, making file I/O operations more uniform across different environments.
 
 ### The os module
 
-To address path compatibility issues, Python's standard library includes the os module, which allows you to create OS-agnostic file paths by using the os.path.join() fucntion. This function automatically detects and uses the correct file path separator for the OS on which the Python script is running, allowing your script to be run on any OS without conflicts.
+To address path compatibility issues, Python's standard library includes the os module, which allows you to create OS-agnostic file paths by using the os.path.join() function. This function automatically detects and uses the correct file path separator for the OS on which the Python script is running, allowing your script to be run on any OS without conflicts.
 
 ####  Managing paths with os
 Example of os.path.join on Windows:

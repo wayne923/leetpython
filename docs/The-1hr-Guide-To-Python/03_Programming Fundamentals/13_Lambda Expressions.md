@@ -9,7 +9,7 @@ Lambda expressions use the following syntax-
 lambda argument(s): expression
 ```
 
-* lambda is Python keyword that defines a lambda expression.
+* lambda is a Python keyword that defines a lambda expression.
 * argument(s) are the arguments the lambda expression takes. You can input any number of arguments, separated by commas.
 * The colon : separates the function argument(s) from the function expression.
 * expression is the expression that the lambda expression executes upon the given arguments.
@@ -40,7 +40,7 @@ Let's explore this with the two following scenarios-
 
 ## Scenario 1- filtering for even numbers
 
-One common usecase of lambda involves filtering or transforming objects in a list. Suppose you need to filter a list of numbers for its even numbers. We could do that with the following: 
+One common use case of lambda involves filtering or transforming objects in a list. Suppose you need to filter a list of numbers for its even numbers. We could do that with the following: 
 
 ```python
 def is_even(number):
@@ -62,7 +62,7 @@ print(even_numbers)
 
 ## Scenario 2- sorting with a key
 
-Another common usecase is sorting a container based on a condition or element within it. Suppose you have a list of tuples representing people and their ages, and you want to sort this list by age. We could do that with the following:
+Another common use case is sorting a container based on a condition or element within it. Suppose you have a list of tuples representing people and their ages, and you want to sort this list by age. We could do that with the following:
 
 ```python
 def get_age(person):
@@ -86,6 +86,6 @@ print(sorted_people)
 
 These examples show what lambda expressions excel at- they're incredibly useful for quick data transformations, filtering operations, or applying a simple function over a sequence.
 
-However, it's important to remember that while lambda expressions are powerful and convenient for simple operations, they are not suited for complex functions that would benefit from the clarity provided by a named function definition. The power of lambda expressions lie in its simplicity.
+However, it's important to remember that while lambda expressions are powerful and convenient for simple operations, they are not suited for complex functions that would benefit from the clarity provided by a named function definition. The power of lambda expressions lies in its simplicity.
 
 In summary, lambda expressions are a valuable tool in the Python programmer's toolkit, enabling efficient, readable, and elegant coding for a wide range of simple, single-use function scenarios. 

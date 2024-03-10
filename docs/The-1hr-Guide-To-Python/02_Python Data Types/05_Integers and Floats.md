@@ -1,9 +1,9 @@
 # Integer and Floats
 
-In Pythons numbers are their own data type, just like with lists and strings and so on. Python distinguishes between integers and floating-point numbers (called floats), as each serve different purposes in programming. Let's explore these two types of numbers.
+In Python numbers are their own data type, just like with lists and strings and so on. Python distinguishes between integers and floating-point numbers (called floats), as each serves different purposes in programming. Let's explore these two types of numbers.
 
 ## Integers (int)
-Integers, or int, are whole numbers that includes both positive and negative numbers and zero.
+Integers, or int, are whole numbers that include both positive and negative numbers and zero.
 
 Here are some examples of ints:
 ```python
@@ -16,7 +16,7 @@ print(x, y, z) #Outputs 10 -300 0
 
 ## Floating-Point Numbers (float)
 
-Floating-point numbers, or float, are real numbers with decimal points that includes both positive and negative numbers. They're called floating point numbers because the decimal point can 'float' to any point- 1.00000 is a float, for example, simply because it has a decimal point.
+Floating-point numbers, or float, are real numbers with decimal points that include both positive and negative numbers. They're called floating point numbers because the decimal point can 'float' to any point- 1.00000 is a float, for example, simply because it has a decimal point.
 
 Here are some examples of floats:
 
@@ -28,7 +28,7 @@ c = 0.0
 print(a, b, c) #Outputs 10.5 -3.142 0.0
 ```
 
-Both int and floats share the same operations, most of which can be seen in the table below. Feel free to use this as a resource whenever you need to remember what you can do with a int and or a float!
+Both int and floats share the same operations, most of which can be seen in the table below. Feel free to use this as a resource whenever you need to remember what you can do with an int and or a float!
 
 | Operation | Explanation | Example |
 |-----------|-------------|---------|

@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Welcome to LeetPython!
 
-We're glad that you're here with us for your journey into Python! Whether you're a just starting your journey into Python or a Python pro, you've come to the right place. 
+We're glad that you're here with us for your journey into Python! Whether you're just starting your journey into Python or a Python pro, you've come to the right place. 
 
 Here at LeetPython we aim to offer a comprehensive collection of Python resources, tutorials, code snippets, and projects that'll help no matter your level!
 

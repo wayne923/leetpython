@@ -7,7 +7,7 @@ This is where modules come into play. Simply put, a module is a file containing 
 
 This flexibility makes modules a key for organizing your code, allowing you to group related code and ideas into a file that can be used across multiple Python scripts. 
 
-Python comes with a extensive standard library of modules that offer additional functionalities beyond the Python built-in functions and types. These standard modules are very powerful and greatly reduce the need to write your own code, making it a good idea to use them whenever you need.
+Python comes with an extensive standard library of modules that offer additional functionalities beyond the Python built-in functions and types. These standard modules are very powerful and greatly reduce the need to write your own code, making it a good idea to use them whenever you need.
 
 There's far too many modules to cover in a single section, so let's use the random module, which provides tools for generating and working with random numbers, to explore how to work with modules.
 
@@ -98,7 +98,7 @@ If a module is a file containing Python code that can be grouped together, then 
 
 A library in Python is a collection of modules that perform a specific function or serve a certain purpose.
 
-The random and math modules we saw earlier are a part of Python’s Standard Library- a vast collection of modules like file I/O, system calls, internet protocols, and more, that come preinstalled along with Python. Then there's the third party open-sourced libraries that you need to install yourself before you can use them.
+The random and math modules we saw earlier are a part of Python’s Standard Library- a vast collection of modules like file I/O, system calls, internet protocols, and more, that come pre installed along with Python. Then there's the third party open-source libraries that you need to install yourself before you can use them.
 
 Libraries are one of the reasons why Python is the fastest growing computer language- they allow you to utilize code written by others, saving you time and giving you vast capabilities that would take significant time and effort to develop from scratch.
 
@@ -128,7 +128,7 @@ array = numpy.array([1, 2, 3])
 print(array)  # Outputs: [1 2 3]
 ```
 
-Libraries operate the same as modules, meaning you can do give them aliases and import specific things from them as you could with modules.
+Libraries operate the same as modules, meaning you can give them aliases and import specific things from them as you could with modules.
 
 ## Finding Libraries
 Discovering libraries that can help solve your problem is a key skill in Python programming. Websites like PyPI (Python Package Index) are excellent resources for finding libraries. PyPI hosts thousands of third-party Python libraries, covering a wide range of functionalities from web development and data analysis to machine learning and scientific computing.

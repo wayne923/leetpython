@@ -56,7 +56,7 @@ if number > 3:
 ```
 
 ## Elif (else if) Statement
-The elif (else if) statement is used to provide multiple conditions, each with its own code block, to be checked in sequence if the initial if statement fails. It's used to create logic branches, allowing you to program in decisions based off the result of the initial if statement.
+The elif (else if) statement is used to provide multiple conditions, each with its own code block, to be checked in sequence if the initial if statement fails. It's used to create logic branches, allowing you to program in decisions based on the result of the initial if statement.
 
 The logic of an elif statement can be expressed as:
 
@@ -135,7 +135,7 @@ And here's an example of while statements in action:
 # Initialize a counter to hold to a value.
 count = 0
 
-#This code repeatedly adds 1 to count as long as its less than 5.
+#This code repeatedly adds 1 to count as long as it is less than 5.
 while count < 5:
     count += 1
 ```
@@ -183,7 +183,7 @@ for number in numbers:
 
 ## Continue Statement
 
-The continue statement tells Python to 'continue' on, effectively causing Python to skip over its current iteration and move onto the next one in a loop. It's useful for allowing you to skip pass certain parts of a loop that you may not want the code block to execute on.
+The continue statement tells Python to 'continue' on, effectively causing Python to skip over its current iteration and move onto the next one in a loop. It's useful for allowing you to skip past certain parts of a loop that you may not want the code block to execute on.
 
 Here's an example of the continue statement in action:
 
@@ -223,7 +223,7 @@ Alll together, the try, except, and finally statements essential for robust erro
 
 The logic of a try, except, and finally statement can be expressed as:
 
-`Attempt to exceute this code block. If something happens, except this other code block. Finally, execute this code block no matte the outcome of the two blocks.`
+`Attempt to execute this code block. If something happens, except this other code block. Finally, execute this code block no matter the outcome of the two blocks.`
 
 
 Here's its actual syntax in Python:

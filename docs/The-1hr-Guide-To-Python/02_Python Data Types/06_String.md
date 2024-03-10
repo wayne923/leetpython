@@ -8,7 +8,7 @@ In Python, strings can be defined in several ways, each with its unique advantag
 
 * Single quotes `' '` and double quotes `" "`are the two most common ways to define a string, and while there's no real functional difference between the two escape sequences mean it's typically easier to use `" "`
 
-* Triple quotes `''' '''` or `""" """` allow your strings to span across multiple lines, including line breaks, without the need or an explicit newline character `\n`. This makes them useful in writing readable documentation in Python, and are commonly used for docstrings in Python functions, classes, and modules.
+* Triple quotes `''' '''` or `""" """` allow your strings to span across multiple lines, including line breaks, without the need for an explicit newline character `\n`. This makes them useful in writing readable documentation in Python, and are commonly used for docstrings in Python functions, classes, and modules.
 
 Here are some examples of these in action:
 
@@ -40,7 +40,7 @@ print('How\'s your day going?')
 
 If you want to include a backslash `\` into your code you can simply use `\\`:
 
-There's in fact a many kinds of escape sequence commands. Most of them perform specialized action for string formatting and so fall outside the scope of this tutorial. You can find them here if you're curious-
+There's in fact many kinds of escape sequence commands. Most of them perform specialized action for string formatting and so fall outside the scope of this tutorial. You can find them here if you're curious-
 https://docs.python.org/3/reference/lexical_analysis.html#escape-sequences
 
 
@@ -51,7 +51,7 @@ You may have situations where you want to be able to customize certain details w
 While there are several methods of string formatting, the two most modern and useful methods are:
 
 ### .format() Method
-The .format() method uses curly braces `{}` as placeholds within the string for the values you want to pass into them with via .format().
+The .format() method uses curly braces `{}` as placeholders within the string for the values you want to pass into them with via .format().
  Here's an example:
 
 ```python
@@ -75,7 +75,7 @@ returns Hello John!
 
 Both methods are highly versatile and have their pros and cons.
 * f-strings, while less versatile than .format(), creates more readable code, making it a popular choice for simple formatting tasks.
-* .format(), while less readable and requiring more code, is much more versatile- allowing for complex value formatting and more resuable code-making it ideal for creating data tables or applying the same format repeatedly to different data.
+* .format(), while less readable and requiring more code, is much more versatile- allowing for complex value formatting and more reusable  code-making it ideal for creating data tables or applying the same format repeatedly to different data.
 
 Which one you end up using will ultimately be about your preferences!
 
@@ -95,7 +95,7 @@ Most of the possible operations supported by dict objects can be seen in the tab
 | `max(s)` | Returns the largest character in string `s` based on alphabetical order. | `print(max('banana'))`  # Outputs: 'n' |
 | `s.index(x[, i[, j]])` | Returns the lowest index in `s` where substring `x` is found, optionally within the slice `s[i:j]`. Raises ValueError if `x` is not found. | `print('hello'.index('e'))`  # Outputs: 1 |
 | `s.count(x)` | Returns the number of non-overlapping occurrences of substring `x` in `s`. | `print('hello world'.count('l'))`  # Outputs: 3 |
-| `str.capitalize()` | Returns a copy of `str` with its first character capitalized and the rest lowercased. | `print('hello world'.capitalize())`  # Outputs: 'Hello world' |
+| `str.capitalize()` | Returns a copy of `str` with its first character capitalized and the rest in lowercase. | `print('hello world'.capitalize())`  # Outputs: 'Hello world' |
 | `str.casefold()` | Returns a case-folded copy of `str`, used for caseless matching. This is more aggressive than `str.lower()` and is intended to remove all case distinctions. | `print('Hello World'.casefold())`  # Outputs: 'hello world' |
 | `str.center(width[, fillchar])` | Returns a centered string of length `width`. Padding is done using the specified `fillchar` (default is a space). | `print('apple'.center(10, '-'))`  # Outputs: '--apple---' |
 | `str.count(sub[, start[, end]])` | Returns the number of non-overlapping occurrences of substring `sub` in the string, optionally restricted to a substring if `start` and `end` are provided. | `print('banana'.count('a'))`  # Outputs: 3 |

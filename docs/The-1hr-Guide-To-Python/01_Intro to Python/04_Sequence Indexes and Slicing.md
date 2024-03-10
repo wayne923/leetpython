@@ -36,13 +36,13 @@ This may be quite difficult to visualize at first, so let’s use these handy vi
 | Tuple       | (0,1,2,3,4,5) | 0           | 1    | 2    | 3    | 4    | 5    |
 | Range       | (0,6)         | 0           | 1    | 2    | 3    | 4    | 5    |
 
+## Sequence Slicing
+
 We can select a portion of a sequence object by using the slice notation, which uses the following syntax-
 
 ```Python
 Sequence Object[start:stop:step]
 ```
-
-## Sequence Slicing
 
 The start parameter is at the index value to begin slicing from.
 

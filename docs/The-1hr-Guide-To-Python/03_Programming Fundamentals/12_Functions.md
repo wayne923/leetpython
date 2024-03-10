@@ -82,14 +82,30 @@ print(greeting)  # Outputs Hello, world!
 
 The function hello() returns an explicit value “Hello, world!” that we assign to greeting, which we then print.
 
-### Why Use return?
+### Why use Return?
 So why does all of this matter? Why bother using return when we can just set up functions to do something?
 
 The main answer is that having functions that can return a value allows your functions to be interactive with other functions and processes. You can use a function to calculate or perform a specific task, then pass its returned value into another function or part of your program. This is part of what allows programs to perform complex decisions and perform complex tasks. When functions return values, they can act as the building blocks of your program’s logic, contributing to a well-organized and flexible codebase.
 
+Here's a quick example:
+```python
+def calculate_area(radius):
+    pi = 3.14
+    area = pi * (radius ** 2)
+    return area
+
+# Calculate the area of a circle with a radius of 5
+circle_area = calculate_area(5)
+print("The area of the circle is:", circle_area)
+```
+
+By creating a function that calculates the area of a circle and returns its value, we can plug it in wherever we like, showcasing the versatility and reusability of functions in Python. This approach allows for modular programming, where each function performs a specific task and can be used as a building block for more complex operations.
+
+## Function Parameters
+
 Now that we got that out of the way, we can finally move onto talking about the real meat of functions- their parameters. Python functions possess a number of parameters that allow you to control how they interact with the arguments provided to them, enhancing the function's usability.
 
-## Positional Parameters
+### Positional Parameters
 Positional parameters are the most common way to pass arguments to a function. The arguments are passed in order, from left to right, and are matched with the parameters defined in the function's signature.
 
 ```python
@@ -112,7 +128,7 @@ def addition(x, y):
 print(addition(y=-5, x=4)) #Outputs -1
 ```
 
-## Default Parameters
+### Default Parameters
 Default parameters allow you to assign default values to parameters, allowing you to avoid passing arguments. This can be very useful for two reasons-
 By default a function will return an error when you fail to pass arguments to all possible parameters. Default parameters allow you to avoid this by setting up default values that will step in when there’s no appropriate argument.
 It allows you to pre-program the function, essentially making it behave in a predictable manner, such as when it’s not necessary to pass an argument in for those specific parameters
@@ -146,7 +162,7 @@ def addition(x=4, y):
 print(addition(3)) # This returns a SyntaxError: non-default argument follows default argument
 ```
 
-## Variable Length Parameters
+### Variable Length Parameters
 Variable length parameters allow the function to accept a variable number of arguments instead of the fixed number that is defined by the function itself. 
 
 There are two types of variable length parameters- 
@@ -172,6 +188,6 @@ def print_details(**key-pairs):
 print_details(name="Alice", age=30) # Outputs Name: Alice, Age: 30
 ```
 
-##Conclusion
+## Conclusion
 
-And that wraps up our section on parameters! Don’t worry if you don’t have all of these memorized, it’s definitely the longest section we’ve had thus far and contains an awful lot of information. As with the rest, think of this as a resource that you can always turn to if you don’t remember something. What’s important is that you keep on with the rest of the guide!
+And that wraps up our section on parameters! Don’t worry if you don’t have all of these memorized, it’s definitely the longest section we’ve had thus far and contains an awful lot of information. As with the rest, think of this as a resource that you can always turn to if you don’t remember something. What's important is that you keep trying them out!

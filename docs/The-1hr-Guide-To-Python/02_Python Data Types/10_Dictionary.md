@@ -1,7 +1,5 @@
 # Dictionary
-
-
-A dictionary in Python is a mutable object that stores an unordered pairs of keys and values, called key-value pairs, where each key is mapped to a specific value. It is defined using curly braces `{}`, with keys and values separated by a colon `:`.
+A dictionary in Python is a mutable object that stores an unordered pair of keys and values, called key-value pairs, where each key is mapped to a specific value. It is defined using curly braces `{}`, with keys and values separated by a colon `:`.
 
 Here's an example:
 

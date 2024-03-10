@@ -2,7 +2,7 @@
 
 As you code and program with Python you'll often find yourself working with collections of data- lists of numbers, sets of unique items, dictionaries of key-value pairs, and even generating sequences on the fly with generators and you'll need to transform this data somehow.
 
-While conditional statements such as if statements and for loops are the typical tools used for such tasks, Python provides an even more concise and efficient approach- comprehensions- which allow you to create new list/set/dictionary/generator objects by applying an opertion and/or a condition to the given iterable.
+While conditional statements such as if statements and for loops are the typical tools used for such tasks, Python provides an even more concise and efficient approach- comprehensions- which allow you to create new list/set/dictionary/generator objects by applying an operation and/or a condition to the given iterable.
 
 Comprehensions follow this basic format-
 ```python
@@ -23,7 +23,7 @@ new_iterable=[expression for item in iterable if condition]
 
 The if statement here works exactly like how it would normally- it applies a conditional if statement to comprehension, allowing us to further control what it does.
 
-The beauty of comprehensions lie in their ability to replace multi-line conditional statements  with a single, clear line of code, making your code more Pythonic and easier to format and read. It may take some time to get used to its syntax, but once you do you'll undoubtedly find them very valuable.
+The beauty of comprehensions lies in their ability to replace multi-line conditional statements  with a single, clear line of code, making your code more Pythonic and easier to format and read. It may take some time to get used to its syntax, but once you do you'll undoubtedly find them very valuable.
 
 Here we'll explore the four types of comprehensions- list, set, dictionary, and generator expressions- and see how each can be used to elegantly handle common data manipulation tasks. It tends to be easier to understand comprehensions when we see them compared to their control flow equivalents, so we'll explore that as well.
 
