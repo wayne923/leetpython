@@ -1,18 +1,24 @@
-/**
- * CSS files with the .module.css suffix will be treated as CSS modules
- * and scoped locally.
- */
+/* src/pages/index.module.css */
 
 .heroBanner {
-  padding: 4rem 0;
-  text-align: center;
+  padding: 5rem 0;
   position: relative;
   overflow: hidden;
+  background-color: #f3ead9;
+  color: #242d57;
 }
 
 @media screen and (max-width: 996px) {
   .heroBanner {
-    padding: 2rem;
+    padding: 2rem 0;
+  }
+  .headerContent {
+    flex-direction: column;
+    text-align: center;
+  }
+  .imageContainer img {
+    max-width: 80%;
+    margin-top: 20px;
   }
 }
 
@@ -20,13 +26,78 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 20px;
+}
+/* Refined Vector-Style Popup Button with Enhanced Underneath Color Effect */
+.myCustomButton {
+  background-color: var(--ifm-color-primary-light); /* Original button color remains */
+  color: #242D57; /* Base text color for contrast */
+  border: none;
+  outline: none;
+  position: relative;
+  overflow: hidden;
+  transition: background-color 0.3s ease; /* Smooth transition for background color */
+  cursor: pointer; /* Indicates the element is clickable */
+  z-index: 1; /* Ensures button text is above pseudo-elements */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+  transform: translateZ(0); /* Ensures GPU acceleration for smoother animations */
 }
 
-.featuresSection {
+.myCustomButton::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 300%; /* Initially larger to cover the button on hover */
+  height: 300%; /* Initially larger to cover the button on hover */
+  background-color: var(--ifm-color-primary); /* The pop-up color */
+  transition: transform 0.5s ease, opacity 0.3s ease; /* Smooth transitions for transform and opacity */
+  transform: translate(-50%, -50%) scale(0); /* Center and scale down to 0 */
+  opacity: 0; /* Start fully transparent */
+  z-index: -1; /* Below the button text */
+  border-radius: 50%; /* Creates a circular effect */
+}
+
+.myCustomButton:hover::before {
+  transform: translate(-50%, -50%) scale(1); /* Scale back to full size */
+  opacity: 1; /* Fully visible */
+}
+
+.myCustomButton:hover {
+  background-color: var(--ifm-color-primary-light); /* Maintain original color underneath */
+  color: #FFFFFF; /* Change text color for better visibility */
+}
+
+.myCustomButton:focus, .myCustomButton:active {
+  outline: none;
+  background-color: var(--ifm-color-primary-dark); /* Darker shade for active/focus states */
+}
+
+
+
+.headerContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.textContent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.imageContainer {
+  flex: 1;
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
-  gap: 20px; /* This sets the gap between the feature blocks */
-  padding: 40px 0; /* Adjust the padding as needed */
-  background-color: #ecf0f1; /* Light grey background for the whole section */
+  align-items: center;
+}
+
+.imageContainer img {
+  max-width: 60%;
+  height: auto;
 }

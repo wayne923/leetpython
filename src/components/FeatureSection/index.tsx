@@ -1,37 +1,43 @@
-// In src/pages/index.tsx or wherever you are defining your page layout
+// In src/components/FeatureSection/index.tsx
 
 import React from 'react';
 import FeatureBlock from '@site/src/components/FeatureBlock';
 import styles from './styles.module.css';
-
-// import styles from './featuresSection.module.css'; // Create this CSS module
-
-// Icons can be from any icon library like react-icons
 import { FaBook, FaChalkboardTeacher, FaQuestionCircle, FaList } from 'react-icons/fa';
 
 const FeaturesSection = (): JSX.Element => {
   return (
     <section className={styles.featuresSection}>
-      <FeatureBlock
-        icon={<FaBook />}
-        title="Learning Paths"
-        description="Guided study plans for accelerated learning"
-      />
-      <FeatureBlock
-        icon={<FaChalkboardTeacher />}
-        title="Python Tutorials"
-        description="In-depth articles and step-by-step video courses"
-      />
-      <FeatureBlock
-        icon={<FaQuestionCircle />}
-        title="Quizzes"
-        description="Evaluate your Python knowledge with quick tests"
-      />
-      <FeatureBlock
-        icon={<FaList />}
-        title="Browse Topics"
-        description="Focus on a specific area or skill level"
-      />
+      <div className={styles.sectionHeader}>
+        <h2>Transform Your Python Journey</h2>
+        <p>With resources tailored to every level, we make mastering Python an adventure of discovery.</p>
+      </div>
+      <div className={styles.featureBlocks}>
+        <FeatureBlock
+          icon={<FaBook />}
+          title="Easy Guides"
+          description="Dive deep into Python with structured guides"
+          url="/docs/intro"
+        />
+        <FeatureBlock
+          icon={<FaChalkboardTeacher />}
+          title="Python Tutorials"
+          description="In-depth articles and step-by-step videos"
+          url="https://www.youtube.com/watch?v=u2JNc9Zjqb4"
+        />
+        <FeatureBlock
+          icon={<FaQuestionCircle />}
+          title="Quick Quizzes"
+          description="Test your knowledge with bite-sized quizzes"
+          url="https://www.instagram.com/leetpython"
+        />
+        <FeatureBlock
+          icon={<FaList />}
+          title="Browse Topics"
+          description="Focus on a specific areas or skills"
+          url="docs/category/the-1hr-guide-to-python"
+        />
+      </div>
     </section>
   );
 };

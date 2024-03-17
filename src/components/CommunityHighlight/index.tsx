@@ -1,15 +1,27 @@
-// In src/components/CommunityHighlight/index.tsx
+// src/components/CommunityHighlight/index.tsx
 
 import React from 'react';
-import styles from './styles.module.css'; // Ensure you have this CSS module
+import styles from './styles.module.css';
 
 const CommunityHighlight = (): JSX.Element => {
+  const instagramLogoUrl = '/img/instagram_logo.svg';
+  const communityGifUrl = '/img/communityhighlight.gif'; // Ensure the path matches your project structure
+  
   return (
     <section className={styles.communityHighlight}>
-      <div className="container">
-        <h2>Join Our Vibrant Community</h2>
-        <p>With over 20,000 enthusiasts on Instagram, dive into daily quizzes, Pythonic code discussions, and master Python alongside peers who share your passion.</p>
-        <a href="https://www.instagram.com/yourcommunityhandle" target="_blank" rel="noopener noreferrer" className="button">Follow Us on Instagram</a> {/* Adjust the link to your actual Instagram page */}
+      <div className={styles.flexContainer}>
+        <div className={styles.textContent}>
+          {/* <h2 className={styles.minorTitle}>Python Community</h2> */}
+          <p className={styles.majorDescription}>Engage, learn, and grow.</p>
+          <p className={styles.description}>Become part of a network of over 20,000 Python enthusiasts and dive into daily challenges, vibrant discussions, and collaborative projects.</p>
+          <a href="https://www.instagram.com/leetpython" target="_blank" rel="noopener noreferrer" className={styles.followUsButton}>
+            <img src={instagramLogoUrl} alt="Follow us on Instagram" className={styles.instagramLogo} />
+            <b>Join the Community</b>
+          </a>
+        </div>
+        <div className={styles.gifContainer}>
+          <img src={communityGifUrl} alt="Community interactions and highlights" className={styles.communityGif} />
+        </div>
       </div>
     </section>
   );
