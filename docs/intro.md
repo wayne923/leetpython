@@ -2,15 +2,14 @@
 sidebar_position: 1
 ---
 
-# Welcome to LeetPython
+# Welcome to LeetPython!
 
-Let's discover **Python**.
+We're glad that you're here with us for your journey into Python! Whether you're just starting your journey into Python or a Python pro, you've come to the right place. 
 
-## Getting Started
+Here at LeetPython we aim to offer a comprehensive collection of Python resources, tutorials, code snippets, and projects that'll help no matter your level!
 
-Get started by exploring the left navigation.
+If you're a beginner, we recommend you begin from **Getting Started** to learn how quickly get your very own Python environment, and then head down to **The 1hr Guide to Python** to begin your Python journey.
 
-### What you'll need
+If you're a seasoned pro, hang tight! We'll quickly have content for you generated!
 
-- Python
-  - Can be locally, online IDE, etc.
+We hope you enjoy everything you learn in LeetPython!
