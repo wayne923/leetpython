@@ -1,0 +1,127 @@
+/* src/components/CommunityHighlight/styles.module.css */
+
+.communityHighlight {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 0;
+  background-color: #f3ead9ff; /* Harmonized with the site's color scheme */
+}
+
+.flexContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  max-width: 1200px; /* Controlling the maximum width for better layout */
+  width: 100%;
+}
+
+.textContent {
+  flex: 1;
+  text-align: left;
+  padding: 0 40px; /* Ensures padding around the text content */
+}
+
+.minorTitle {
+  font-size: 1.2rem;
+  color: var(--ifm-color-primary-light); /* Accent color for minor title */
+}
+
+.majorDescription {
+  font-size: 3rem; /* Larger font size for major description */
+  color: #242D57; /* Primary text color */
+  font-weight: bold;
+  margin: 1rem 0;
+}
+
+.description {
+  color: #4A4A4A; /* Adjusted for better readability */
+  font-size: 1.1rem; /* Larger font size for major description */
+  margin-bottom: 2rem;
+}
+
+.followUsButton {
+  background-color: var(--ifm-color-primary-light);
+  color: #242D57;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  transition: background-color 0.3s ease, color 0.3s ease; /* Updated transition for color */
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Added shadow for depth */
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.followUsButton::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 300%;
+  height: 300%;
+  background-color: var(--ifm-color-primary); /* Color for the dynamic effect */
+  transition: transform 0.5s ease, opacity 0.3s ease;
+  transform: translate(-50%, -50%) scale(0);
+  opacity: 0;
+  z-index: -1;
+  border-radius: 50%;
+}
+
+.followUsButton:hover::before {
+  transform: translate(-50%, -50%) scale(1);
+  opacity: 1;
+}
+
+.followUsButton:hover {
+  background-color: var(--ifm-color-primary-light); /* Ensure the original color is visible underneath */
+  color: #FFFFFF; /* Enhanced visibility */
+  text-decoration: none; /* Removes any text decoration like underline on hover */
+}
+
+.followUsButton:focus, .followUsButton:active {
+  outline: none;
+  background-color: var(--ifm-color-primary-dark); /* Darker shade for active/focus states */
+}
+
+.instagramLogo {
+  height: 30px;
+}
+
+.gifContainer {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.communityGif {
+  max-width: 60%; /* Adjusted size for GIF */
+  border-radius: 8px; /* Softened corners */
+}
+
+@media screen and (max-width: 960px) {
+  .flexContainer {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .textContent {
+    padding: 0 80px; /* Ensures padding around the text content */
+  }
+
+
+  .textContent, .gifContainer {
+    width: 100%;
+  }
+
+  .communityGif {
+    max-width: 40%; /* Adjusting for mobile */
+    margin-top: 2rem;
+  }
+}

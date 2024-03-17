@@ -1,0 +1,39 @@
+/* src/components/FeatureSection/styles.module.css */
+
+.featureBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  margin: 15px;
+  width: 220px;
+  background-color: #F0F4F8; /* Very Light Blue Gray for block background */
+  color: #313336; /* Adjust if you want a different text color */
+  border-radius: 8px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Keeping the smooth transition for hover effects */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+
+
+}
+
+.featureBlock:hover {
+  transform: translateY(-5px); /* Slight lift effect on hover */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Add shadow for depth */
+}
+
+.title {
+  color: #242D57; /* Dark Sapphire Blue for title */
+}
+
+.description {
+  color: #313336; /* Keeping text color for description */
+}
+
+.featureBlockLink {
+  text-decoration: none; /* Ensures the link has no underline */
+}
+
+.featureBlockLink:hover, .featureBlockLink:focus {
+  text-decoration: none; /* Ensure no underline appears on hover/focus */
+}
+

@@ -1,27 +1,39 @@
+// src/pages/index.tsx
+
+import React from 'react';
 import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
-import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import Heading from '@theme/Heading';
-
+import CalloutSections from '@site/src/components/CalloutSections';
+import NewsletterSignup from '@site/src/components/NewsletterSignup';
 import styles from './index.module.css';
+import FeatureSection from '../components/FeatureSection';
+import CommunityHighlight from '../components/CommunityHighlight';
+
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
-        <Heading as="h1" className="hero__title">
-          {siteConfig.title}
-        </Heading>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="/docs/intro">
-            Learn Python
-          </Link>
+        <div className={styles.headerContent}>
+          <div className={styles.textContent}>
+            <Heading as="h1" className="hero__title">{siteConfig.title}</Heading>
+            <p className="hero__subtitle">{siteConfig.tagline}</p>
+            <div className={styles.buttons}>
+              <Link
+                className={clsx('button button--secondary button--lg', styles.myCustomButton)}
+                to="/docs/intro"
+              >
+                Get Started 1 min at a Time
+              </Link>
+            </div>
+          </div>
+          <div className={styles.imageContainer}>
+            <img src="/img/landingpage.webp" alt="Our mascot, an orange blob, coding on a laptop" />
+          </div>
         </div>
       </div>
     </header>
@@ -29,15 +41,15 @@ function HomepageHeader() {
 }
 
 export default function Home(): JSX.Element {
-  const {siteConfig} = useDocusaurusContext();
-  return (
-    <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
-      <HomepageHeader />
-      <main>
-        <HomepageFeatures />
-      </main>
-    </Layout>
-  );
+ return (
+   <Layout title="Home" description="Discover Python with LeetPython">
+     <HomepageHeader />
+     <main>
+       <FeatureSection />
+       <CommunityHighlight />
+       <CalloutSections />
+       <NewsletterSignup />
+     </main>
+   </Layout>
+ );
 }

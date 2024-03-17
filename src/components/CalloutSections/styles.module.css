@@ -1,0 +1,31 @@
+/* src/components/CalloutSections/styles.module.css */
+
+.features {
+    display: flex;
+    align-items: center;
+    padding: 6rem 0;
+    width: 100%;
+  }
+  
+  .featureSvg {
+    height: 210px;
+    width: 210px;
+  }
+  
+  .roundedBox {
+    padding: 1rem; /* Adjust padding as needed */
+    background-color: #242d57; /* Choose a background color that contrasts well with your SVG */
+    border-radius: 8px; /* Adjust for rounded corners */
+    display: inline-block; /* Keeps the div size according to its content */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Optional: Adds a subtle shadow for depth */
+  }
+  
+  /* Add this class to make images round */
+.roundedEdges {
+  border-radius: 10px; /* This makes the image round */
+}
+
+.roundedEdges:hover {
+  box-shadow: 0 0 8px 2px rgba(255, 165, 0, 0.7); /* Adjust color and intensity to your liking */
+  transition: box-shadow 0.3s ease-in-out; /* Smooth transition for the glow effect */
+}

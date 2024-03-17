@@ -1,30 +1,53 @@
-/**
- * Any CSS included here will be global. The classic template
- * bundles Infima by default. Infima is a CSS framework designed to
- * work well for content-centric websites.
- */
+/* src/css/custom.css */
 
-/* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-color-primary: #F96732; /* Retaining the Bright Orange to emphasize mascot's color */
+  --ifm-color-primary-dark: #E26C27; /* Secondary Accent, slightly darker for contrast */
+  --ifm-color-primary-darker: #DD6B20; /* A richer shade for added depth */
+  --ifm-color-primary-darkest: #D8601A; /* Deep orange for strong contrasts */
+  --ifm-color-primary-light: #FFA760; /* A much lighter shade of orange for interactive elements */
+  --ifm-color-primary-lighter: #FFB784; /* Even lighter, for hover states and soft backgrounds */
+  --ifm-color-primary-lightest: #FFC8A8; /* Lightest orange for background accents */
+  
+  --ifm-font-color-base: #4A4A4A; /* Softening the base font color for better readability */
+  --ifm-background-color: #FAF9F6; /* A warm, light background to complement the orange tones */
+  --ifm-title-color: #2C3E50; /* A deep blue for titles, offering contrast without overwhelming */
+  --ifm-feature-block-bg: #FFFFFF; /* Keeping feature blocks crisp and clean on a white background */
+
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --ifm-navbar-height: 60px;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --ifm-color-primary: #F96732; /* Using the same bright orange to maintain branding consistency */
+  --ifm-color-primary-dark: #E26C27;
+  --ifm-color-primary-darker: #DD6B20;
+  --ifm-color-primary-darkest: #D8601A;
+  --ifm-color-primary-light: #FFA760;
+  --ifm-color-primary-lighter: #FFB784;
+  --ifm-color-primary-lightest: #FFC8A8;
+
+  --ifm-font-color-base: #E0E0E0; /* Ensuring legibility in dark mode */
+  --ifm-background-color: #333333; /* Dark mode background that complements the orange without clashing */
+  --ifm-title-color: #FFFFFF; /* Bright titles for dark mode for stark contrast */
+  --ifm-feature-block-bg: #424242; /* Dark feature blocks for a subtle, muted contrast */
+
+  --docusaurus-highlighted-code-line-bg: rgba(255, 237, 213, 0.3); /* A soft orange highlight for code lines */
 }
+
+/* Increase logo size in the navbar */
+.navbar__logo img {
+  height: 145%;
+  margin-top: -5px;
+  width: auto !important;
+  transition: filter 0.3s ease; /* Smooth transition for the filter effect */
+}
+
+/* Invert colors for dark mode */
+[data-theme='dark'] .navbar__logo img {
+  filter: invert(1) 
+  /* hue-rotate(180deg) brightness(90%) contrast(90%); */
+}
+
