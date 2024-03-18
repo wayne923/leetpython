@@ -18,7 +18,7 @@ const FeatureList: FeatureItem[] = [
   {
     title: 'Our Founder',
     media: require('@site/static/img/founder_image.jpeg').default,
-    link: '/about-founder', // Your desired path for the founder image
+    link: 'https://www.youtube.com/watch?v=Nl0tf5ag47k&ab_channel=LilyChen', // Your desired path for the founder image
     description: (
       <>
         Learning is a lifelong journey, and translating technical skills to career opportunity is daunting and oftentime seems impossible. Early in my career I was able to use my learning to land a job at Amazon and then at Meta. “Luck is what happens when preparation meets opportunity.” - Seneca
@@ -28,7 +28,7 @@ const FeatureList: FeatureItem[] = [
   {
     title: 'Sister Sites: Principles of AI',
     media: require('@site/static/img/poai_logo.svg').default,
-    link: '/principles-of-ai', // Your desired path for the SVG logo
+    link: 'https://www.youtube.com/watch?v=cYvNX3zxQ6c&ab_channel=PrinciplesofAI', // Your desired path for the SVG logo
     isSvg: true, // Explicitly indicate this is an SVG component
     description: (
       <>
