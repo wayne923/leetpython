@@ -38,12 +38,12 @@
 }
 
 /* Increase logo size in the navbar */
-.navbar__logo img {
+/* .navbar__logo img {
   height: 145%;
   margin-top: -5px;
   width: auto !important;
   transition: filter 0.3s ease; /* Smooth transition for the filter effect */
-}
+} */
 
 /* Invert colors for dark mode */
 [data-theme='dark'] .navbar__logo img {
