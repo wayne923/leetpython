@@ -42,7 +42,7 @@
   height: 145%;
   margin-top: -5px;
   width: auto !important;
-  transition: filter 0.3s ease; /* Smooth transition for the filter effect */
+  transition: filter 0.3s ease; Smooth transition for the filter effect
 } */
 
 /* Invert colors for dark mode */
