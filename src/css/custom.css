@@ -38,16 +38,16 @@
 }
 
 /* Increase logo size in the navbar */
-/* .navbar__logo img {
+.navbar__logo img {
   height: 145%;
   margin-top: -5px;
   width: auto !important;
-  transition: filter 0.3s ease; Smooth transition for the filter effect
-} */
+  transition: filter 0.3s ease;
+}
 
 /* Invert colors for dark mode */
 [data-theme='dark'] .navbar__logo img {
-  filter: invert(1) 
+  filter: invert(1);
   /* hue-rotate(180deg) brightness(90%) contrast(90%); */
 }
 

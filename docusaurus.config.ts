@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'LeetPython',
   tagline: 'Learn smarter, not harder with simplified learning',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon.svg',
 
   // Set the production url of your site here
   url: 'https://leetpython.com',
@@ -72,12 +72,12 @@ const config: Config = {
         autoCollapseCategories: true,
       },
     },
-    image: 'img/docusaurus-social-card.jpg',
+    // image: 'img/docusaurus-social-card.jpg',
     navbar: {
       title: '',
       logo: {
         alt: 'LeetPython Logo',
-        src: 'img/officialleetpythonlogo.png',
+        src: 'img/OfficialLeetPythonLogo.png',
       }, 
       items: [
         {
@@ -87,11 +87,6 @@ const config: Config = {
           label: 'Knowledge Center',
         },
         {to: '/blog', label: 'Newsletters', position: 'left'},
-        {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
-          position: 'right',
-        },
       ],
     },
     footer: {
@@ -101,8 +96,16 @@ const config: Config = {
           title: 'Docs',
           items: [
             {
-              label: 'Tutorial',
-              to: '/docs/intro',
+              label: 'Getting Started',
+              to: '/docs/category/getting-started',
+            },
+            {
+              label: 'The 1hr Guide to Python',
+              to: '/docs/category/the-1hr-guide-to-python',
+            },
+            {
+              label: 'Projects',
+              to: '/docs/Projects/Beginner/Guess%20the%20Number%20Game',
             },
           ],
         },
@@ -110,16 +113,12 @@ const config: Config = {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'Youtube',
+              href: 'https://www.youtube.com/@leetpython',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              label: 'Instagram',
+              href: 'https://www.instagram.com/leetpython',
             },
           ],
         },
@@ -131,13 +130,13 @@ const config: Config = {
               to: '/blog',
             },
             {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              label: 'Principles of AI',
+              href: 'https://www.youtube.com/@principlesofai',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} LeetPython Inc.`,
     },
     prism: {
       theme: prismThemes.github,
