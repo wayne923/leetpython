@@ -15,8 +15,8 @@ const config: Config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'LeetGroup', // Usually your GitHub org/user name.
-  projectName: 'LeetPython', // Usually your repo name.
+  organizationName: 'wayne923', // Usually your GitHub org/user name.
+  projectName: 'leetpython', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -78,7 +78,7 @@ const config: Config = {
       logo: {
         alt: 'LeetPython Logo',
         src: 'img/officialleetpythonlogo.png',
-      },
+      }, 
       items: [
         {
           type: 'docSidebar',
