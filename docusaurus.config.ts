@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'LeetPython',
   tagline: 'Learn smarter, not harder with simplified learning',
-  favicon: 'img/favicon.svg',
+  favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
   url: 'https://leetpython.com',
@@ -38,14 +38,14 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/wayne923/leetpython',
+            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/wayne923/leetpython',
+            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -65,17 +65,19 @@ const config: Config = {
   ],
 
   themeConfig: {
+    // Replace with your project's social card
     docs: {
       sidebar: {
         hideable: true,
         autoCollapseCategories: true,
       },
     },
+    image: 'img/docusaurus-social-card.jpg',
     navbar: {
       title: '',
       logo: {
         alt: 'LeetPython Logo',
-        src: 'img/OfficialLeetPythonLogo.png',
+        src: 'img/officialleetpythonlogo.png',
       }, 
       items: [
         {
@@ -85,6 +87,11 @@ const config: Config = {
           label: 'Knowledge Center',
         },
         {to: '/blog', label: 'Newsletters', position: 'left'},
+        {
+          href: 'https://github.com/facebook/docusaurus',
+          label: 'GitHub',
+          position: 'right',
+        },
       ],
     },
     footer: {
@@ -94,16 +101,8 @@ const config: Config = {
           title: 'Docs',
           items: [
             {
-              label: 'Getting Started',
-              to: '/docs/category/getting-started',
-            },
-            {
-              label: 'The 1hr Guide to Python',
-              to: '/docs/category/the-1hr-guide-to-python',
-            },
-            {
-              label: 'Projects',
-              to: '/docs/Projects/Beginner/Guess%20the%20Number%20Game',
+              label: 'Tutorial',
+              to: '/docs/intro',
             },
           ],
         },
@@ -111,12 +110,16 @@ const config: Config = {
           title: 'Community',
           items: [
             {
-              label: 'Youtube',
-              href: 'https://www.youtube.com/@leetpython',
+              label: 'Stack Overflow',
+              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
             },
             {
-              label: 'Instagram',
-              href: 'https://www.instagram.com/leetpython',
+              label: 'Discord',
+              href: 'https://discordapp.com/invite/docusaurus',
+            },
+            {
+              label: 'Twitter',
+              href: 'https://twitter.com/docusaurus',
             },
           ],
         },
@@ -128,13 +131,13 @@ const config: Config = {
               to: '/blog',
             },
             {
-              label: 'Principles of AI',
-              href: 'https://www.youtube.com/@principlesofai',
+              label: 'GitHub',
+              href: 'https://github.com/facebook/docusaurus',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} LeetPython Inc.`,
+      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,
