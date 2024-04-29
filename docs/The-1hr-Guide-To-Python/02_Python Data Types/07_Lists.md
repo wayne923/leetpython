@@ -1,3 +1,9 @@
+---
+title: "Lists"
+description: "Explore the versatility and power of Python lists. Learn how to create, manipulate, and perform various operations on lists using built-in methods and functions."
+keywords: [Python lists, list creation, list manipulation, list operations, list methods, list functions, mutable sequences, ordered collections, Python data structures]
+---
+
 # List
 
 A list is a mutable object that contains an ordered sequence of objects and is defined by square brackets `[]`.

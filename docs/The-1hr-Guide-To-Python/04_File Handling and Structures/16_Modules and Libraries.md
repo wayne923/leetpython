@@ -1,3 +1,9 @@
+---
+title: "Modules and Libraries"
+description: "Explore the world of Python modules and libraries. Learn how to use and create modules for code reusability and organization, and discover the power of Python libraries for extending functionality and solving complex problems efficiently."
+keywords: [Python modules, Python libraries, code reusability, code organization, standard library, third-party libraries, pip package manager, importing modules, creating modules, finding libraries]
+---
+
 # Modules and Libraries
 
 ## Modules

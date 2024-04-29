@@ -1,3 +1,9 @@
+---
+title: "Dictionary"
+description: "Explore the power and flexibility of Python dictionaries. Learn how to create, manipulate, and access data using key-value pairs, and discover the various operations and methods available for working with dictionaries."
+keywords: [Python dictionary, key-value pairs, dictionary creation, dictionary manipulation, dictionary access, dictionary operations, dictionary methods, unordered collection, mutable objects, data retrieval]
+---
+
 # Dictionary
 A dictionary in Python is a mutable object that stores an unordered pair of keys and values, called key-value pairs, where each key is mapped to a specific value. It is defined using curly braces `{}`, with keys and values separated by a colon `:`.
 

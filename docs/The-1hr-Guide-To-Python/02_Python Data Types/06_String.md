@@ -1,3 +1,9 @@
+---
+title: "Strings"
+description: "Master the fundamentals of strings in Python. Learn how to define, format, and manipulate strings using various methods and operations."
+keywords: [Python strings, string definition, string formatting, string manipulation, string methods, string operations, escape sequences, f-strings, Python programming basics]
+---
+
 # Strings
 
 A string is an immutable object that contains a sequence of characters, where each character is its own object.

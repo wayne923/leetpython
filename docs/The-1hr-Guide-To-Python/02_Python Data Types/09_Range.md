@@ -1,3 +1,9 @@
+---
+title: "Range"
+description: "Explore the efficient and versatile Python range object. Learn how to create and manipulate ranges, access elements, and use them in various sequence operations and iterations."
+keywords: [Python range, range function, immutable sequence, integer sequence, memory efficiency, sequence operations, range indexing, range slicing, range iteration]
+---
+
 # Range
 
 Range differs from typical objects like lists and tuples in that it’s not actually an object that you can assign an ordered sequence of objects to, but rather a special object type that represents an immutable sequence of integers. It is created with the range() function and uses an identical syntax to slicing.

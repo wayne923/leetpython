@@ -1,3 +1,9 @@
+---
+title: "Understanding Decorators in Python"
+description: "Master the concept of decorators in Python with our comprehensive guide. Learn how decorators can enhance functionality, improve code readability, and promote reuse without altering the original function. Explore creating, applying, and using decorators with practical examples."
+keywords: [Python decorators, function modification, code reusability, modular coding, Python programming, advanced Python techniques, decorator basics, decorator examples, Python code enhancement]
+---
+
 # Decorators
 
 Decorators are a powerful tool that allows you to modify the behavior of a function by feeding it into another function, essentially 'wrapping' the original function with the decorator function.

@@ -1,6 +1,8 @@
 ---
-title: Guess the Number Game
+title: "Guess the Number Game"
 tags: [Beginner, Projects]
+description: "Learn to build a 'Guess the Number' game in Python. This beginner-friendly project guides you through creating a fun and interactive game that sharpens logical reasoning and control flow understanding, using core programming concepts such as loops, conditionals, and input validation."
+keywords: [Python game project, Python beginners, Guess the Number game, Python programming, input validation, random number generation, game loop, Python conditional statements, beginner coding project]
 ---
 
 Welcome to the **Guess the Number Game**  project! 

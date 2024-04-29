@@ -1,3 +1,9 @@
+---
+title: "Comprehensions"
+description: "Discover the power and conciseness of Python comprehensions. Learn how to use list comprehensions, set comprehensions, dictionary comprehensions, and generator comprehensions to transform and filter data efficiently."
+keywords: [Python comprehensions, list comprehension, set comprehension, dictionary comprehension, generator comprehension, data transformation, data filtering, concise code, Pythonic code, code readability]
+---
+
 # Comprehensions
 
 As you code and program with Python you'll often find yourself working with collections of data- lists of numbers, sets of unique items, dictionaries of key-value pairs, and even generating sequences on the fly with generators and you'll need to transform this data somehow.

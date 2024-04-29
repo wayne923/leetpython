@@ -1,3 +1,9 @@
+---
+title: "File I/O"
+description: "Learn the essentials of file input/output (I/O) operations in Python. Discover how to open, read from, write to, and close files, handle file modes, work with file paths across different operating systems, and utilize Python's built-in modules for efficient file handling."
+keywords: [Python file I/O, file input/output, open files, read files, write files, close files, file modes, file paths, operating systems, os module, pathlib module, error handling, Python I/O libraries, security practices]
+---
+
 # File I/O
 
 What's the use of knowing how to write Python code if it doesn't persist beyond the lifetime of the script's operation? After all, the true power of programming doesn't lie in writing fancy loops or creating functions- it's about using those tools to interact with external data and create programs that have a tangible impact. To do this we need a way for Python to interact with other files or create them. This is what file Input/Output (I/O) is.

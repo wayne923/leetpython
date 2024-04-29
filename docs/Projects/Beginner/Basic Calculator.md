@@ -1,6 +1,8 @@
 ---
-title: Basic Calculator
+title: "Basic Calculator"
 tags: [Beginner, Projects]
+description: "Create your own Basic Calculator in Python with this step-by-step project guide. Learn to implement fundamental programming concepts such as classes, functions, and exception handling while building a command-line calculator that performs basic arithmetic operations."
+keywords: [Python calculator, Python project, basic arithmetic, command-line application, Python classes, error handling, user input validation, Python programming tutorial, beginner Python project]
 ---
 
 Welcome to the **Basic Calculator** Project!

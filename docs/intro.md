@@ -1,4 +1,7 @@
 ---
+title: "Welcome to LeetPython"
+description: "LeetPython ultimate Python learning hub, whether you're a beginner or a seasoned pro. Dive into our comprehensive guides, tutorials, and projects tailored for all skill levels."
+keywords: [learn Python, Python tutorials, Python beginner, Python projects, Python programming, Python code, start Python]
 sidebar_position: 1
 ---
 

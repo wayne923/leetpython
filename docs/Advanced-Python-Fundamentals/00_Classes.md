@@ -1,3 +1,9 @@
+---
+title: "Classes"
+description: "Dive into the world of object-oriented programming with Python classes. Learn how to define classes, create instances, and utilize class attributes, methods, inheritance, and special methods to build powerful and reusable code structures."
+keywords: [Python classes, object-oriented programming, OOP, class definition, class instances, class attributes, class methods, inheritance, polymorphism, special methods, code reusability, code organization]
+---
+
 # Classes
 
 ## Class Basics with Buddy

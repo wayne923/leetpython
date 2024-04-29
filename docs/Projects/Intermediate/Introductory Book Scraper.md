@@ -1,6 +1,8 @@
 ---
-title: Introductory Web Scraper
+title: "Introductory Book Scraper"
 tags: [Intermediate, Projects]
+description: "Learn the basics of web scraping with Python by building an introductory book scraper. Discover how to fetch web page content, parse HTML, extract data, and handle errors while scraping the 'Books to Scrape' website."
+keywords: [Python web scraping, Beautiful Soup, requests, HTML parsing, data extraction, error handling, ethical scraping, rate limiting, Python project]
 ---
 
 Welcome to the **Introductory Web Scraper**  project!

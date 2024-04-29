@@ -1,3 +1,9 @@
+---
+title: "Sequence Indexes and Slicing"
+description: "Master the concepts of sequence indexing and slicing in Python. Learn how to access individual elements and subsequences of strings, lists, tuples, and ranges using positive and negative indexes and slices."
+keywords: [Python sequence indexing, Python sequence slicing, Python indexes, Python slices, positive indexing, negative indexing, string slicing, list slicing, tuple slicing, range slicing, Python data manipulation]
+---
+
 # Sequence Indexes and Slicing
 
 ## Sequence Indexing

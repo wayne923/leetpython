@@ -1,3 +1,9 @@
+---
+title: "Generators"
+description: "Explore the power and efficiency of Python generators. Learn how to create and use generator functions to generate sequences of values on-demand, enabling memory-efficient processing of large datasets and infinite sequences."
+keywords: [Python generators, generator functions, yield keyword, lazy evaluation, memory efficiency, large datasets, infinite sequences, Fibonacci sequence, counter generator]
+---
+
 # Generators
 
 In your coding journey you might encounter situations where you need to work with a very large set of data or a sequence that's computed on demand. For instance, you may be processing a dataset that's simply too large to fit into memory, or perhaps your generating a sequence where each element is the result of a computation that you only need one at a time. Typical container objects like lists are not good at these, as it requires all data to be stored in memory at once.

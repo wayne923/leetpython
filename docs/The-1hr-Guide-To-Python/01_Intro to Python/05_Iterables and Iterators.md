@@ -1,3 +1,9 @@
+---
+title: "Iterables and Iterators"
+description: "Dive deep into the world of Python iterables and iterators. Understand the difference between iterables and iterators, how to use them effectively, and why they are fundamental to Python programming."
+keywords: [Python iterables, Python iterators, iterable objects, iterator objects, Python for loop, Python data manipulation, Python built-in functions, Python generators, custom iterators, Python programming concepts]
+---
+
 # Iterables and Iterators
 
 One of the core concepts you'll encounter in Python are iterables and iterators. Understanding what they are is critical to understanding how Python handles data collections and iterates over them. Unfortunately, they can be quite confusing to understand. So this guide aims to clarify these concepts, making them approachable and easy to understand.

@@ -1,3 +1,9 @@
+---
+title: "Operators"
+description: "Learn about the various operators in Python and how to use them effectively. Understand arithmetic, logical, comparison, identity, and membership operators with clear examples."
+keywords: [Python operators, arithmetic operators, logical operators, comparison operators, identity operators, membership operators, Python programming, Python tutorial]
+---
+
 # Operators
 
 Python possesses a number of operators, or symbols, that are used to perform various operations on objects. Many of them are very important for efficient Python programming, so in this section we’ll go over the ones that everyone should be familiar with. Don’t worry about memorizing all of them. Use this as an opportunity to see what exists and use this page as a reference to remind yourself!

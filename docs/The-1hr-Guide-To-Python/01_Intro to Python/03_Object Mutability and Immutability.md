@@ -1,3 +1,9 @@
+---
+title: "Object Mutability and Immutability"
+description: "Understand the concept of object mutability and immutability in Python. Learn the difference between mutable and immutable objects, and how to work with them effectively in your Python code."
+keywords: [Python object mutability, Python object immutability, mutable objects, immutable objects, Python lists, Python tuples, Python data types, Python programming concepts]
+---
+
 # Object Mutability and Immutability
 
 All Python objects are either mutable or immutable, which is just a fancy way of saying that some objects can change after you create them, while others cannot be changed once you create them. Understanding the difference between mutable and immutable objects is key to avoiding unexpected bugs or behavior in your code, and helps further your knowledge of Python coding and when to use certain objects.

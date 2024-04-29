@@ -1,6 +1,8 @@
 ---
-title: Rock Paper Scissors
+title: "Rock Paper Scissors"
 tags: [Beginner, Projects]
+description: "Create a classic Rock Paper Scissors game using Python. Learn how to handle user input, generate random computer choices, determine the winner, and keep track of scores in this interactive and fun project."
+keywords: [Python game, Rock Paper Scissors, user input, random choice, conditional statements, loops, score tracking, Python project]
 ---
 
 Welcome to the **Rock Paper Scissors** project!

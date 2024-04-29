@@ -1,3 +1,9 @@
+---
+title: "Sets"
+description: "Dive into the world of Python sets and discover their unique properties. Learn how to create, manipulate, and perform operations on sets, and understand their role in membership testing and data uniqueness."
+keywords: [Python sets, set creation, set operations, set methods, mutable objects, unordered collections, unique elements, membership testing, data uniqueness]
+---
+
 # Set
 
 A set is a mutable object that contains an unordered collection of unique objects that is defined by the use of curly braces `{}`. Since dictionaries also use curly braces, Python defines an empty set with its built-in function definition `set()`.

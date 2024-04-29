@@ -1,6 +1,8 @@
 ---
 title: Weather App
 tags: [Intermediate, Projects]
+description: "Develop your own Weather App using Python and the OpenWeatherMap API. This intermediate project teaches you how to fetch and process live weather data, handle API requests, parse JSON, and create a functional command-line interface for displaying weather conditions."
+keywords: [Python weather app, API integration, JSON parsing, OpenWeatherMap API, Python projects, real-time data fetching, command-line interface, Python API tutorial, intermediate Python project]
 ---
 
 Welcome to the **Weather App** project!

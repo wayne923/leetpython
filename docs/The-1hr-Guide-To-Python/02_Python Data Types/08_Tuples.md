@@ -1,3 +1,9 @@
+---
+title: "Tuples"
+description: "Discover the immutable power of Python tuples. Learn how to create, access, and manipulate tuples using various operations, methods, and functions."
+keywords: [Python tuples, tuple creation, tuple operations, tuple methods, tuple functions, immutable sequences, ordered collections, Python data structures]
+---
+
 # Tuples
 
 A tuple is an immutable object that contains an ordered sequence of objects (essentially making it an immutable list) and is formally defined by the use of commas. This means that this is perfectly a fine Python tuple-

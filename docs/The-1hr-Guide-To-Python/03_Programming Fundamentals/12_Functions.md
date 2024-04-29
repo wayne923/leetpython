@@ -1,3 +1,9 @@
+---
+title: "Functions"
+description: "Dive into the world of Python functions and learn how to create reusable and modular code. Understand the basics of function definition, return statements, and various types of function parameters, including positional, default, and variable-length parameters."
+keywords: [Python functions, function definition, function parameters, return statement, positional parameters, default parameters, variable-length parameters, args, kwargs, reusable code, modular programming]
+---
+
 # Functions
 
 Functions are in many ways the heart of Python programming, acting as reusable blocks of code designed to perform a specific task or return a value. There are many advantages to building a function-

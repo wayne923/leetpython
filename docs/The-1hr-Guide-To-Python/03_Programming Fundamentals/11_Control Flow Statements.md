@@ -1,3 +1,9 @@
+---
+title: "Control Flow"
+description: "Master the art of controlling the flow of your Python programs. Learn about conditional statements (if, elif, else), loops (while, for), control statements (break, continue, pass), and error handling (try, except, finally) to create dynamic and interactive code."
+keywords: [Python control flow, conditional statements, if statement, elif statement, else statement, loops, while loop, for loop, break statement, continue statement, pass statement, error handling, try statement, except statement, finally statement]
+---
+
 # Control Flow
 
 So far we've learned the common building blocks and concepts in Python, but nothing about how to complete meaningful tasks or create solutions to problems. This is where control flow statements come in.

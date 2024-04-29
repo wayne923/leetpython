@@ -1,5 +1,7 @@
 ---
-title: Setup and Installation
+title: "Setup and Installation"
+description: "Start your Python programming journey with our easy-to-follow setup and installation guide. Learn how to install Python and set up Visual Studio Code or explore web-based Python IDEs like Google Colab."
+keywords: [Python installation, Python setup, install Python, Python IDE, Visual Studio Code Python, Google Colab Python, beginner Python setup]
 ---
 
 ## Downloading Python

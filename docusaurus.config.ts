@@ -55,6 +55,7 @@ const config: Config = {
           anonymizeIP: true,
         },
         sitemap: {
+          lastmod: 'date',
           changefreq: 'weekly',
           priority: 0.5,
           ignorePatterns: ['/tags/**'],
@@ -136,6 +137,10 @@ const config: Config = {
       ],
       copyright: `Copyright © ${new Date().getFullYear()} LeetPython Inc.`,
     },
+    metadata: [
+      {name: 'keywords', content: 'Python, Programming, Learn Python, Python Tutorials, Python Projects, Easy Python, Python Tips, Python for Beginners'},
+      {name: 'description', content: 'LeetPython offers simplified learning approaches to mastering Python. Dive into our comprehensive tutorials, projects, and community support to enhance your coding skills effectively.'}
+    ],
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,

@@ -1,4 +1,10 @@
-# Integer and Floats
+---
+title: "Integers and Floats"
+description: "Explore the world of Python numbers. Learn about integers (int) and floating-point numbers (float), their differences, and the various operations you can perform on them."
+keywords: [Python numbers, Python integers, Python floats, int, float, Python arithmetic operations, Python math, Python data types, Python programming basics]
+---
+
+# Integers and Floats
 
 In Python numbers are their own data type, just like with lists and strings and so on. Python distinguishes between integers and floating-point numbers (called floats), as each serves different purposes in programming. Let's explore these two types of numbers.
 

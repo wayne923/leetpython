@@ -1,3 +1,9 @@
+---
+title: "Objects and Variables"
+description: "Discover the versatility of Python with our guide on objects and variables. Learn how everything in Python is an object and how to effectively use variables in your coding projects."
+keywords: [Python objects, Python variables, object-oriented programming, Python programming basics, Python data types, Python tutorial, Python variable assignment, Python variable unpacking, Python variable swapping]
+---
+
 # Objects and Variables
 
 One of the key features and strengths of Python is that its data can be incredibly versatile. The key to this versatility lies in its object types- Python is an object-oriented programming language, meaning that virtually everything in Python is an object!

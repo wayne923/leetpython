@@ -1,3 +1,9 @@
+---
+title: "Lambda Expressions"
+description: "Discover the power and simplicity of Python lambda expressions. Learn how to create anonymous functions for quick and efficient data transformations, filtering, and sorting operations."
+keywords: [Python lambda expressions, anonymous functions, lambda syntax, lambda arguments, lambda expression, filter with lambda, sort with lambda, concise code, readable code, data transformations]
+---
+
 # Lambda Expression
 
 You may find yourself in a situation where you need to quickly use a function to perform a simple operation, like filtering a list of numbers for its even numbers. You could write lengthy bits of code or create a function to perform the action might seem too much for such a simple action, especially if you only need to use that function once in your code. In these cases, where a lightweight and simple function is ideal, Python offers a great solution: lambda expressions.

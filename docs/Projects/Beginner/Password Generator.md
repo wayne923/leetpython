@@ -1,6 +1,8 @@
 ---
 title: Password Generator
 tags: [Beginner, Projects]
+description: "Learn how to build a customizable Password Generator in Python. This beginner-friendly project will teach you how to use Python's string manipulation, randomization techniques, and input validation to create a tool that generates secure passwords based on user-defined criteria."
+keywords: [Python password generator, secure passwords, Python project, string manipulation, randomization techniques, beginner Python coding, Python tutorials, create password, digital security]
 ---
 
 Welcome to the **Password Generator**  project! 
