@@ -12,6 +12,14 @@ type FeatureItem = {
     link: string; // URL to navigate to on click
     isSvg?: boolean; // Optional flag to indicate an SVG component
     description: JSX.Element;
+    onClick: () => void;
+  };
+
+  const handleFeatureClick = (title: string) => {
+    window.gtag('event', 'click', {
+      event_category: 'Feature Section Clicks',
+      event_label: title
+    });
   };
   
 const FeatureList: FeatureItem[] = [
@@ -24,6 +32,7 @@ const FeatureList: FeatureItem[] = [
         Learning is a lifelong journey, and translating technical skills to career opportunity is daunting and oftentime seems impossible. Early in my career I was able to use my learning to land a job at Amazon and then at Meta. “Luck is what happens when preparation meets opportunity.” - Seneca
       </>
     ),
+    onClick: () => handleFeatureClick('Our Founder')
   },
   {
     title: 'Sister Sites: Principles of AI',
@@ -35,20 +44,21 @@ const FeatureList: FeatureItem[] = [
         AI is becoming an integral part of how we operate as we interact with products that are embedded with these capabilities. The most amazing part is that even everyday consumers can leverage these tools and empower us to be even more creative and assist in many domains.
       </>
     ),
+    onClick: () => handleFeatureClick('Sister Sites: Principles of AI')
   },
 ];
 
-function Feature({title, media, link, isSvg, description}: FeatureItem) {
+function Feature({title, media, link, isSvg, description, onClick}: FeatureItem) {
     return (
       <div className={clsx('col col--6')}>
         <div className="text--center">
           {isSvg ? (
-          <Link to={link}>
+          <Link to={link} onClick={onClick}>
             {React.createElement(media, {className: clsx(styles.featureSvg, styles.roundedEdges), role: 'img'})}
           </Link>
         ) : (
             // Render as img tag for JPEGs and other image formats
-            <Link to={link}>
+            <Link to={link} onClick={onClick}>
               <img src={media} className={clsx(styles.featureSvg, styles.roundedEdges)} alt={title} />
           </Link>
           )}

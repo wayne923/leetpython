@@ -26,6 +26,13 @@ import React from 'react';
 import styles from './styles.module.css';
 
 export default function NewsletterSignup(): JSX.Element {
+  const handleIframeClick = () => {
+    window.gtag('event', 'click', {
+      'event_category': 'Newsletter Signups',
+      'event_label': 'Iframe Clicked'
+    });
+  };
+
   return (
     <section className={styles.newsletterSignup}>
       <h2>Stay updated with LeetPython and exclusive contents</h2>
@@ -41,6 +48,7 @@ export default function NewsletterSignup(): JSX.Element {
           overflow: 'hidden',
           // border: 'none'
         }}
+        onClick={handleIframeClick} // Attach the click handler
       ></iframe>
     </section>
   );

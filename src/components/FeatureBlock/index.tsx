@@ -9,11 +9,12 @@ type FeatureBlockProps = {
   title: string;
   description: string;
   url: string; // Add a url prop for linking
+  onClick: () => void;
 };
 
-const FeatureBlock = ({ icon, title, description, url }: FeatureBlockProps): JSX.Element => {
+const FeatureBlock = ({ icon, title, description, url, onClick }: FeatureBlockProps): JSX.Element => {
   return (
-    <Link to={url} className={styles.featureBlockLink}> {/* Use Link for internal or external links */}
+    <Link to={url} className={styles.featureBlockLink} onClick={onClick}> {/* Apply onClick to the Link */}
       <div className={styles.featureBlock}>
         <div className={styles.icon}>{icon}</div>
         <h3 className={styles.title}>{title}</h3>

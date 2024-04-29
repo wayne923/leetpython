@@ -6,6 +6,13 @@ import styles from './styles.module.css';
 import { FaBook, FaChalkboardTeacher, FaQuestionCircle, FaList } from 'react-icons/fa';
 
 const FeaturesSection = (): JSX.Element => {
+  const handleFeatureClick = (label) => {
+    window.gtag('event', 'click', {
+      event_category: 'Feature Clicks',
+      event_label: label
+    });
+  };
+
   return (
     <section className={styles.featuresSection}>
       <div className={styles.sectionHeader}>
@@ -18,24 +25,28 @@ const FeaturesSection = (): JSX.Element => {
           title="Easy Guides"
           description="Dive deep into Python with structured guides"
           url="/docs/intro"
+          onClick={() => handleFeatureClick('Easy Guides')}
         />
         <FeatureBlock
           icon={<FaChalkboardTeacher />}
           title="Python Tutorials"
           description="In-depth articles and step-by-step videos"
           url="https://www.youtube.com/watch?v=u2JNc9Zjqb4"
+          onClick={() => handleFeatureClick('Python Tutorials')}
         />
         <FeatureBlock
           icon={<FaQuestionCircle />}
           title="Quick Quizzes"
           description="Test your knowledge with bite-sized quizzes"
           url="https://www.instagram.com/leetpython"
+          onClick={() => handleFeatureClick('Quick Quizzes')}
         />
         <FeatureBlock
           icon={<FaList />}
           title="Browse Topics"
           description="Focus on a specific areas or skills"
           url="docs/category/the-1hr-guide-to-python"
+          onClick={() => handleFeatureClick('Browse Topics')}
         />
       </div>
     </section>

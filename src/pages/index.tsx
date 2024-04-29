@@ -15,6 +15,14 @@ import CommunityHighlight from '../components/CommunityHighlight';
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
+
+  const handleGetStartedClick = () => {
+    window.gtag('event', 'click', {
+      event_category: 'Button Clicks',
+      event_label: 'Get Started Button'
+    });
+  };
+
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
@@ -26,6 +34,7 @@ function HomepageHeader() {
               <Link
                 className={clsx('button button--secondary button--lg', styles.myCustomButton)}
                 to="/docs/intro"
+                onClick={handleGetStartedClick}
               >
                 Get Started 1 min at a Time
               </Link>
