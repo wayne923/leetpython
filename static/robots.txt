@@ -1,0 +1,17 @@
+# 80legs' new crawler
+User-agent: voltron
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: PiplBot
+Disallow: /
+
+User-agent: *
+Disallow: /build/
+Disallow: /src/
+Disallow: /static/
+Allow: /docs/
+Allow: /
+Sitemap: https://www.leetpython.com/sitemap.xml
