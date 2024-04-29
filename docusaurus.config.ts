@@ -55,7 +55,6 @@ const config: Config = {
           anonymizeIP: true,
         },
         sitemap: {
-          lastmod: 'date',
           changefreq: 'weekly',
           priority: 0.5,
           ignorePatterns: ['/tags/**'],
