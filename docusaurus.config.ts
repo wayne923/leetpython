@@ -38,14 +38,16 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/wayne923/leetpython',
+            undefined,
+          remarkPlugins: [],
+          rehypePlugins: [],
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/wayne923/leetpython',
+            undefined,
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -85,6 +87,11 @@ const config: Config = {
           position: 'left',
           label: 'Knowledge Center',
         },
+        {
+          to: '/docs/category/begginer/',
+          label: 'Projects',
+          position: 'left'
+        },      
         {to: '/blog', label: 'Newsletters', position: 'left'},
       ],
     },
