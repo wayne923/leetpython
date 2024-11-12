@@ -24,7 +24,7 @@ const FeaturesSection = (): JSX.Element => {
           icon={<FaBook />}
           title="Easy Guides"
           description="Dive deep into Python with structured guides"
-          url="/docs/intro"
+          url="/docs/category/intro-to-python"
           onClick={() => handleFeatureClick('Easy Guides')}
         />
         <FeatureBlock
@@ -45,7 +45,7 @@ const FeaturesSection = (): JSX.Element => {
           icon={<FaList />}
           title="Browse Topics"
           description="Focus on a specific areas or skills"
-          url="docs/category/the-1hr-guide-to-python"
+          url="docs/category/intro-to-python"
           onClick={() => handleFeatureClick('Browse Topics')}
         />
       </div>

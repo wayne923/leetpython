@@ -17,11 +17,21 @@ function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
 
   const handleGetStartedClick = () => {
-    window.gtag('event', 'click', {
-      event_category: 'Button Clicks',
-      event_label: 'Get Started Button'
-    });
+    // Safe gtag call
+    if (typeof window !== 'undefined' && window.gtag) {
+      window.gtag('event', 'click', {
+        event_category: 'Button Clicks',
+        event_label: 'Get Started Button'
+      });
+    }
   };
+
+  // const handleGetStartedClick = () => {
+  //   window.gtag('event', 'click', {
+  //     event_category: 'Button Clicks',
+  //     event_label: 'Get Started Button'
+  //   });
+  // };
 
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>

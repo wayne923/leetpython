@@ -85,10 +85,10 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Knowledge Center',
+          label: 'Knowledge Base',
         },
         {
-          to: '/docs/category/begginer/',
+          to: '/docs/category/beginner/',
           label: 'Projects',
           position: 'left'
         },      
@@ -102,16 +102,16 @@ const config: Config = {
           title: 'Docs',
           items: [
             {
-              label: 'Getting Started',
-              to: '/docs/category/getting-started',
+              label: 'Beginner Python Fundamentals',
+              to: '/docs/category/beginner-python-fundamentals',
             },
             {
-              label: 'The 1hr Guide to Python',
-              to: '/docs/category/the-1hr-guide-to-python',
+              label: 'Advanced Python Fundamentals',
+              to: '/docs/category/advanced-python-fundamentals',
             },
             {
               label: 'Projects',
-              to: '/docs/Projects/Beginner/Guess%20the%20Number%20Game',
+              to: '/docs/category/beginner',
             },
           ],
         },
