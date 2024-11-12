@@ -3,7 +3,7 @@ import React, { useEffect } from 'react';
 import Layout from '@theme-original/Layout';
 import type LayoutType from '@theme/Layout';
 import type {WrapperProps} from '@docusaurus/types';
-import { Analytics } from 'src/utils/analytics';
+import { Analytics } from '../../utils/analytics';
 
 type Props = WrapperProps<typeof LayoutType>;
 
